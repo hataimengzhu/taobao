@@ -1,0 +1,34 @@
+.hide{display: none;}
+.show{display: block}
+/*头部区域开始*/
+#topBg{height: 36px;width: 100%;background-color: #F5F5F5;}
+/*头部区域结束*/
+/*logo区域开始*/
+#logoBg{width: 100%;height: 70px;background-color: #FFFFFF;}
+/*logo区域结束*/
+/*广告区域开始*/
+#advBg{width: 100%;height: 120px;background-color: #D6D6D6;}
+/*广告区域结束*/
+/*导航栏区域开始*/
+#navBg{width: 100%;height: 30px;background-color: #222222;margin-bottom: 10px;}
+/*导航栏区域结束*/
+/*侧边栏区域开始*/
+#riSide{width:37px;height:100%;background-color: #EEEEEE;position: fixed;right: 0px;top: 0px;}
+/*侧边栏区域结束*/
+/*商品信息区域开始*/
+.common{margin: 0 auto;width:1140px;height: 600px;background-color: orange; }		
+#details{padding: 20px;border: 1px solid #E8E8E8;width: 1100px;}
+#details #main{background-color:yellow;width: 940px;height: 569px;float: left;position: relative;}
+#details #main .good{width: 400px;height: 500px;margin-right: 18px;background-color:#fff;}
+#details #main .good #goodImg{margin-bottom: 14px;}
+#details #main .good #goodImg .mangify{width: 400px;height: 400px;position: absolute;top: 0px;left: 410px;overflow: hidden;display: none;}
+#details #main .good #goodImg .mangify img{position: relative;left: 0px;top: 0px;}
+#details #main .good #goodImg .mark{width:400px; height:400px; position:absolute; z-index:2; left:0px; top:0px; background:red; filter:alpha(opacity:0); opacity:0;cursor: move;}
+#details #main .good #goodImg .float_layer{width: 199px; height: 199px;  background:url(../images/T12pdtXaldXXXXXXXX-2-2.png) repeat;/* filter: alpha(opacity: 30); opacity: 0.3;*/ position: absolute; top: 0; left: 0; display:none;}
+#details #main .good .goodTab{float: left;}
+#details #main .good .goodTab ul li{float: left;margin-right: 11px;display: block;width: 50px;height: 50px;border: 2px solid #fff;}
+/*#details #main .good .goodTab ul li a{display: block;width: 50px;height: 50px;border: 2px solid #fff;}*/
+/*#details #main .good .goodTab ul li a:hover{border-color: #FF4400;}*/
+/*商品信息区域结束*/
+/*商品及店铺具体信息区域开始*/
+/*商品及店铺具体信息区域结束
